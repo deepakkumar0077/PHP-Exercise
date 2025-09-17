@@ -131,7 +131,7 @@
 
 
 //  2) count words-------------->
-// st_word_count();
+// str_word_count();
 
 // $xy = "this is a car";
 // echo str_word_count($xy);
