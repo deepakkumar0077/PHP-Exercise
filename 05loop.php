@@ -61,7 +61,53 @@
 
 
 
+// for loop--------------->
 
+// PHP for loop can be used to traverse set of code for the specified number of times.
+
+// It should be used if the number of iterations is known otherwise use while loop.
+
+
+// for($i = 1; $i<=100; $i++){
+//     echo $i." hello world<br>";
+// }
+
+
+
+//  for($i = 100; $i>=1; $i--){
+//     echo $i." hello world<br>";
+// }
+
+
+// for($i = 1; $i<=100; $i=$i+2){
+//     echo $i." hello world<br>";
+// }
+
+
+// practice question----------->
+
+// 1) table of 2 (2 * 1 = 2)
+
+// for($i = 1; $i<=10; $i++){
+//     echo "2 * $i = ". 2*$i . "<br>";
+// }
+
+
+// 2) print 1 to 100,
+// if number divisible by 3 print hello, if dividible by 5
+// print world, if divisible by both 3 and 5 print hello world.
+
+for($i= 0; $i<=100; $i++){
+    if($i%3==0 && $i%5==0){
+        echo"hello world<br>";
+    }elseif($i%3==0){
+        echo "hello <br>";
+    }elseif($i%5==0){
+        echo "world <br>";
+    } else {
+        echo $i."<br>";
+    }
+}
 
 
 
