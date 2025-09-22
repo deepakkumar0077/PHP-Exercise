@@ -5,7 +5,8 @@
 // 1) while loop
 // 2) Do/while loop
 // 3) for loop
-// 4)forEach
+// 4)forEach --------> array
+
 
 
 
