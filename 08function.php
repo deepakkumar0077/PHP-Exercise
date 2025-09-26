@@ -77,7 +77,7 @@ function info($name,$age){
 }
 
 info(age:20, name:"deepak");
-info(20,"deepak")
+info(20,"deepak");
 
 
 
