@@ -29,16 +29,15 @@
 // var_export($x);
 
 
-//  $x = array("nooo", "hloo", "ok");
-//  //array---> json
+//   $x = array("nooo", "hloo", "ok");
+// //  //array---> json
 
-//  echo json_encode($x);
+//   echo json_encode($x);
 
 
 //  $x = array("hello","noo","okkk","nice");
-// // //print_r($x);
-// // echo $x[2];
-
+// // // //print_r($x);
+// // // echo $x[2];
 
 
 // for($i = 0; $i<count($x); $i++){
@@ -128,7 +127,7 @@
 
 // 9) in_array()-----> find the element in array and return true and false.
 
- //$zx = array(12, 45, 6, 7, 8, 45, 23);
+//  $zx = array(12, 45, 6, 7, 8, 45, 23);
 // echo in_array(6,$zx);
 
 
@@ -196,6 +195,7 @@
 // print_r($zx);
 
 
+
 // 18) range()-----> create an array from given range
 // $x = range(1, 21);
 
@@ -216,16 +216,13 @@
 // array_splice($zx,3,2);
 // print_r($zx);
 
-$zx =[12, 34, 45, 56, 67, 78, 89, 100,35];
-array_splice($zx,3,1,[1,2,3]);
-print_r($zx);
+// $zx =[12, 34, 45, 56, 67, 78, 89, 100,35];
+// array_splice($zx,3,1,[1,2,3]);
+// print_r($zx);
 
 
 
-
-
-
-
+?>
 
 
 
